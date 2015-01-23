@@ -1,0 +1,1449 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" style="font-size:15px;" >
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width"/>
+	<link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700|Yanone+Kaffeesatz:700,400' rel='stylesheet' type='text/css'>
+	<style>
+#outlook a { 
+  padding:0; 
+} 
+		
+html{
+	font-size: 15px;
+}
+
+body{ 
+  width:100% !important; 
+  min-width: 100%;
+  -webkit-text-size-adjust:100%; 
+  -ms-text-size-adjust:100%; 
+  margin:0; 
+  padding:0;
+}
+
+.ExternalClass { 
+  width:100%;
+} 
+
+.ExternalClass, 
+.ExternalClass p, 
+.ExternalClass span, 
+.ExternalClass font, 
+.ExternalClass td, 
+.ExternalClass div { 
+  line-height: 100%; 
+} 
+
+#backgroundTable { 
+  margin:0; 
+  padding:0; 
+  width:100% !important; 
+  line-height: 100% !important; 
+}
+
+img { 
+  outline:none; 
+  text-decoration:none; 
+  -ms-interpolation-mode: bicubic;
+  width: auto;
+  max-width: 100%; 
+  float: left; 
+  clear: both; 
+  display: block;
+}
+
+center {
+  width: 100%;
+  min-width: 580px;
+}
+
+a img { 
+  border: none;
+}
+
+p {
+  margin: 0 0 0 10px;
+}
+
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+td { 
+  word-break: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+  border-collapse: collapse !important; 
+}
+
+table, tr, td {
+  padding: 0;
+  vertical-align: top;
+  text-align: left;
+}
+
+hr {
+  color: #d9d9d9; 
+  background-color: #d9d9d9; 
+  height: 1px; 
+  border: none;
+}
+
+
+
+table.body {
+  height: 100%;
+  width: 100%;
+}
+
+table.container {
+  width: 580px;
+  margin: 0 auto;
+  text-align: inherit;
+}
+
+table.row { 
+  padding: 0px; 
+  width: 100%;
+  position: relative;
+}
+
+table.container table.row {
+  display: block;
+}
+
+td.wrapper {
+  padding: 10px 20px 0px 0px;
+  position: relative;
+}
+td.wrappertop {
+  padding: 0px 20px 0px 0px;
+  position: relative;
+}
+
+table.columns,
+table.column {
+  margin: 0 auto;
+}
+
+table.columns td,
+table.column td {
+  padding: 0px 0px 10px; 
+}
+
+table.columns td.sub-columns,
+table.column td.sub-columns,
+table.columns td.sub-column,
+table.column td.sub-column {
+  padding-right: 10px;
+}
+
+td.sub-column, td.sub-columns {
+  min-width: 0px;
+}
+
+table.row td.last,
+table.container td.last {
+  padding-right: 0px;
+}
+
+table.one { width: 30px; }
+table.two { width: 80px; }
+table.three { width: 130px; }
+table.four { width: 180px; }
+table.five { width: 230px; }
+table.six { width: 280px; }
+table.seven { width: 330px; }
+table.eight { width: 380px; }
+table.nine { width: 430px; }
+table.ten { width: 480px; }
+table.eleven { width: 530px; }
+table.twelve { width: 580px; }
+
+table.one center { min-width: 30px; }
+table.two center { min-width: 80px; }
+table.three center { min-width: 130px; }
+table.four center { min-width: 180px; }
+table.five center { min-width: 230px; }
+table.six center { min-width: 280px; }
+table.seven center { min-width: 330px; }
+table.eight center { min-width: 380px; }
+table.nine center { min-width: 430px; }
+table.ten center { min-width: 480px; }
+table.eleven center { min-width: 530px; }
+table.twelve center { min-width: 580px; }
+
+table.one .panel center { min-width: 10px; }
+table.two .panel center { min-width: 60px; }
+table.three .panel center { min-width: 110px; }
+table.four .panel center { min-width: 160px; }
+table.five .panel center { min-width: 210px; }
+table.six .panel center { min-width: 260px; }
+table.seven .panel center { min-width: 310px; }
+table.eight .panel center { min-width: 360px; }
+table.nine .panel center { min-width: 410px; }
+table.ten .panel center { min-width: 460px; }
+table.eleven .panel center { min-width: 510px; }
+table.twelve .panel center { min-width: 560px; }
+
+.body .columns td.one,
+.body .column td.one { width: 8.333333%; }
+.body .columns td.two,
+.body .column td.two { width: 16.666666%; }
+.body .columns td.three,
+.body .column td.three { width: 25%; }
+.body .columns td.four,
+.body .column td.four { width: 33.333333%; }
+.body .columns td.five,
+.body .column td.five { width: 41.666666%; }
+.body .columns td.six,
+.body .column td.six { width: 50%; }
+.body .columns td.seven,
+.body .column td.seven { width: 58.333333%; }
+.body .columns td.eight,
+.body .column td.eight { width: 66.666666%; }
+.body .columns td.nine,
+.body .column td.nine { width: 75%; }
+.body .columns td.ten,
+.body .column td.ten { width: 83.333333%; }
+.body .columns td.eleven,
+.body .column td.eleven { width: 91.666666%; }
+.body .columns td.twelve,
+.body .column td.twelve { width: 100%; }
+
+td.offset-by-one { padding-left: 50px; }
+td.offset-by-two { padding-left: 100px; }
+td.offset-by-three { padding-left: 150px; }
+td.offset-by-four { padding-left: 200px; }
+td.offset-by-five { padding-left: 250px; }
+td.offset-by-six { padding-left: 300px; }
+td.offset-by-seven { padding-left: 350px; }
+td.offset-by-eight { padding-left: 400px; }
+td.offset-by-nine { padding-left: 450px; }
+td.offset-by-ten { padding-left: 500px; }
+td.offset-by-eleven { padding-left: 550px; }
+
+td.expander {
+  visibility: hidden;
+  width: 0px;
+  padding: 0 !important;
+}
+
+table.columns .text-pad,
+table.column .text-pad {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+table.columns .left-text-pad,
+table.columns .text-pad-left,
+table.column .left-text-pad,
+table.column .text-pad-left {
+  padding-left: 10px;
+}
+
+table.columns .right-text-pad,
+table.columns .text-pad-right,
+table.column .right-text-pad,
+table.column .text-pad-right {
+  padding-right: 10px;
+}
+
+
+
+.block-grid {
+  width: 100%;
+  max-width: 580px;
+}
+
+.block-grid td {
+  display: inline-block;
+  padding:10px;
+}
+
+.two-up td {
+  width:270px;
+}
+
+.three-up td {
+  width:173px;
+}
+
+.four-up td {
+  width:125px;
+}
+
+.five-up td {
+  width:96px;
+}
+
+.six-up td {
+  width:76px;
+}
+
+.seven-up td {
+  width:62px;
+}
+
+.eight-up td {
+  width:52px;
+}
+
+
+
+table.center, td.center {
+  text-align: center;
+}
+
+h1.center,
+h2.center,
+h3.center,
+h4.center,
+h5.center,
+h6.center {
+  text-align: center;
+}
+
+span.center {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+img.center {
+  margin: 0 auto;
+  float: none;
+}
+
+.show-for-small,
+.hide-for-desktop {
+  display: none;
+}
+
+
+
+body, table.body, h1, h2, h3, h4, h5, h6, p, td { 
+  color: #222222;
+  font-family: "Helvetica", "Arial", sans-serif; 
+  font-weight: normal; 
+  padding:0; 
+  margin: 0;
+  text-align: left; 
+  line-height: 1.3;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  word-break: normal;
+}
+
+h1 {font-size: 40px;}
+h2 {font-size: 36px;}
+h3 {font-size: 32px;}
+h4 {font-size: 28px;}
+h5 {font-size: 24px;}
+h6 {font-size: 20px;}
+body, table.body, p, td {font-size: 14px;line-height:19px;}
+
+p.lead, p.lede, p.leed {
+  font-size: 18px;
+  line-height:21px;
+}
+
+p { 
+  margin-bottom: 10px;
+}
+
+small {
+  font-size: 10px;
+}
+
+a {
+  color: #2ba6cb; 
+  text-decoration: none;
+}
+
+a:hover { 
+  color: #2795b6 !important;
+}
+
+a:active { 
+  color: #2795b6 !important;
+}
+
+a:visited { 
+  color: #2ba6cb !important;
+}
+
+h1 a, 
+h2 a, 
+h3 a, 
+h4 a, 
+h5 a, 
+h6 a {
+  color: #2ba6cb;
+}
+
+h1 a:active, 
+h2 a:active,  
+h3 a:active, 
+h4 a:active, 
+h5 a:active, 
+h6 a:active { 
+  color: #2ba6cb !important; 
+} 
+
+h1 a:visited, 
+h2 a:visited,  
+h3 a:visited, 
+h4 a:visited, 
+h5 a:visited, 
+h6 a:visited { 
+  color: #2ba6cb !important; 
+} 
+
+
+
+.panel {
+  padding: 10px !important;
+}
+		
+.panelfooter {
+  padding: 0 !important;
+}
+
+.sub-grid table {
+  width: 100%;
+}
+
+.sub-grid td.sub-columns {
+  padding-bottom: 0;
+}
+
+
+
+table.button,
+table.tiny-button,
+table.small-button,
+table.medium-button,
+table.large-button {
+  width: 100%;
+  overflow: hidden;
+}
+
+table.button td,
+table.tiny-button td,
+table.small-button td,
+table.medium-button td,
+table.large-button td {
+  display: block;
+  width: auto !important;
+  text-align: center;
+  background: #2ba6cb;
+  border: 1px solid #2284a1;
+  color: #ffffff;
+  padding: 8px 0;
+}
+
+table.tiny-button td {
+  padding: 5px 0 4px;
+}
+
+table.small-button td {
+  padding: 8px 0 7px;
+}
+
+table.medium-button td {
+  padding: 12px 0 10px;
+}
+
+table.large-button td {
+  padding: 21px 0 18px;
+}
+
+table.button td a,
+table.tiny-button td a,
+table.small-button td a,
+table.medium-button td a,
+table.large-button td a {
+  font-weight: bold;
+  text-decoration: none;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+table.tiny-button td a {
+  font-size: 12px;
+  font-weight: normal;
+}
+
+table.small-button td a {
+  font-size: 16px;
+}
+
+table.medium-button td a {
+  font-size: 20px;
+}
+
+table.large-button td a {
+  font-size: 24px;
+}
+
+table.button:hover td,
+table.button:visited td,
+table.button:active td {
+  background: #2795b6 !important;
+}
+
+table.button:hover td a,
+table.button:visited td a,
+table.button:active td a {
+  color: #fff !important;
+}
+
+table.button:hover td,
+table.tiny-button:hover td,
+table.small-button:hover td,
+table.medium-button:hover td,
+table.large-button:hover td {
+  background: #2795b6 !important;
+}
+
+table.button:hover td a,
+table.button:active td a,
+table.button td a:visited,
+table.tiny-button:hover td a,
+table.tiny-button:active td a,
+table.tiny-button td a:visited,
+table.small-button:hover td a,
+table.small-button:active td a,
+table.small-button td a:visited,
+table.medium-button:hover td a,
+table.medium-button:active td a,
+table.medium-button td a:visited,
+table.large-button:hover td a,
+table.large-button:active td a,
+table.large-button td a:visited {
+  color: #ffffff !important; 
+}
+
+table.secondary td {
+  background: #fff;
+  border-color: #d0d0d0;
+  color: #555;
+}
+
+table.secondary td a {
+  color: #555;
+}
+
+table.secondary:hover td {
+  background: #d0d0d0 !important;
+  color: #555;
+}
+
+table.secondary:hover td a,
+table.secondary td a:visited,
+table.secondary:active td a {
+  color: #555 !important;
+}
+
+table.success td {
+  background: #5da423;
+  border-color: #457a1a;
+}
+
+table.success:hover td {
+  background: #457a1a !important;
+}
+
+table.alert td {
+  background: #c60f13;
+  border-color: #970b0e;
+}
+
+table.alert:hover td {
+  background: #970b0e !important;
+}
+
+table.radius td {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+table.round td {
+  -webkit-border-radius: 500px;
+  -moz-border-radius: 500px;
+  border-radius: 500px;
+}
+
+
+
+body.outlook p {
+  display: inline !important;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+  table[class="body"] img {
+    width: auto !important;
+    height: auto !important;
+  }
+
+  table[class="body"] center {
+    min-width: 0 !important;
+  }
+
+  table[class="body"] .container {
+    width: 95% !important;
+  }
+
+  table[class="body"] .row {
+    width: 100% !important;
+    display: block !important;
+  }
+
+  table[class="body"] .wrapper {
+    display: block !important;
+    padding-right: 0 !important;
+  }
+
+  table[class="body"] .columns,
+  table[class="body"] .column {
+    table-layout: fixed !important;
+    float: none !important;
+    width: 100% !important;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    display: block !important;
+  }
+
+  table[class="body"] .wrapper.first .columns,
+  table[class="body"] .wrapper.first .column {
+    display: table !important;
+  }
+
+  table[class="body"] table.columns td,
+  table[class="body"] table.column td {
+    width: 100% !important;
+  }
+
+  table[class="body"] .columns td.one,
+  table[class="body"] .column td.one { width: 8.333333% !important; }
+  table[class="body"] .columns td.two,
+  table[class="body"] .column td.two { width: 16.666666% !important; }
+  table[class="body"] .columns td.three,
+  table[class="body"] .column td.three { width: 25% !important; }
+  table[class="body"] .columns td.four,
+  table[class="body"] .column td.four { width: 33.333333% !important; }
+  table[class="body"] .columns td.five,
+  table[class="body"] .column td.five { width: 41.666666% !important; }
+  table[class="body"] .columns td.six,
+  table[class="body"] .column td.six { width: 50% !important; }
+  table[class="body"] .columns td.seven,
+  table[class="body"] .column td.seven { width: 58.333333% !important; }
+  table[class="body"] .columns td.eight,
+  table[class="body"] .column td.eight { width: 66.666666% !important; }
+  table[class="body"] .columns td.nine,
+  table[class="body"] .column td.nine { width: 75% !important; }
+  table[class="body"] .columns td.ten,
+  table[class="body"] .column td.ten { width: 83.333333% !important; }
+  table[class="body"] .columns td.eleven,
+  table[class="body"] .column td.eleven { width: 91.666666% !important; }
+  table[class="body"] .columns td.twelve,
+  table[class="body"] .column td.twelve { width: 100% !important; }
+
+  table[class="body"] td.offset-by-one,
+  table[class="body"] td.offset-by-two,
+  table[class="body"] td.offset-by-three,
+  table[class="body"] td.offset-by-four,
+  table[class="body"] td.offset-by-five,
+  table[class="body"] td.offset-by-six,
+  table[class="body"] td.offset-by-seven,
+  table[class="body"] td.offset-by-eight,
+  table[class="body"] td.offset-by-nine,
+  table[class="body"] td.offset-by-ten,
+  table[class="body"] td.offset-by-eleven {
+    padding-left: 0 !important;
+  }
+
+  table[class="body"] table.columns td.expander {
+    width: 1px !important;
+  }
+
+  table[class="body"] .right-text-pad,
+  table[class="body"] .text-pad-right {
+    padding-left: 10px !important;
+  }
+
+  table[class="body"] .left-text-pad,
+  table[class="body"] .text-pad-left {
+    padding-right: 10px !important;
+  }
+
+  table[class="body"] .hide-for-small,
+  table[class="body"] .show-for-desktop {
+    display: none !important;
+  }
+
+  table[class="body"] .show-for-small,
+  table[class="body"] .hide-for-desktop {
+    display: inherit !important;
+  }
+}
+
+  </style>
+  <style>
+
+    table.facebook td {
+      background: #3b5998;
+      border-color: #2d4473;
+    }
+
+    table.facebook:hover td {
+      background: #2d4473 !important;
+    }
+
+    table.twitter td {
+      background: #00acee;
+      border-color: #0087bb;
+    }
+
+    table.twitter:hover td {
+      background: #0087bb !important;
+    }
+
+    table.google-plus td {
+      background-color: #DB4A39;
+      border-color: #CC0000;
+    }
+
+    table.google-plus:hover td {
+      background: #CC0000 !important;
+    }
+
+    .template-label {
+      color: #ffffff;
+      font-weight: bold;
+      font-size: 11px;
+    }
+
+    .callout .panel {
+      border-color: #fff;
+    }
+
+    .header {
+      background: #fff;
+    }
+
+    .footer .wrapper {
+      background: #ebebeb;
+    }
+
+    .footer h5 {
+      padding-bottom: 10px;
+    }
+
+    table.columns .text-pad {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+
+    table.columns .left-text-pad {
+      padding-left: 10px;
+    }
+
+    table.columns .right-text-pad {
+      padding-right: 10px;
+    }
+
+    @media only screen and (max-width: 600px) {
+
+      table[class="body"] .right-text-pad {
+        padding-left: 10px !important;
+      }
+
+      table[class="body"] .left-text-pad {
+        padding-right: 10px !important;
+      }
+		.hide{
+			display: none !important;
+		}
+		.show{
+			display: table !important;
+		}
+		.siteurl .local{
+			text-align: center !important;
+		}
+		.imgtelefone{
+			padding-right: 40px !important;
+            margin-left: -47px !important;
+		}
+		.local {
+			text-align: center !important;
+			padding-left: 55px !important;
+		}
+		.siteurl {
+			text-align: center !important;
+		}	
+		.alinharemail > tbody{
+			text-align: center !important;
+			display: inline-block !important;
+		}
+		.alinharlocal{
+			text-align: center !important;
+			display: inline-block !important;
+		}
+		.alinharlocal > tbody{
+			display: inline-block !important;
+		}
+		.alinharemail{
+			text-align: center !important;
+			display: inline-block !important;
+			
+		}
+		.alinharemail > tbody{
+			display: inline-block !important;
+			
+		}
+		.email{
+			padding-left:60px !important;
+		}
+      
+        .skewtextdestaque{
+           padding-top: 20px !important;
+           padding-left: 20px;
+           padding-right: 20px;
+           font-family: 'Yanone Kaffeesatz', Oswald, Arial, Helvetica, sans-serif;
+           font-weight: 400;
+           font-size: 2em !important;
+           line-height: 1.4;
+           -ms-transform: skewY(-3deg); 
+           -webkit-transform: skewY(-3deg); 
+           transform: skewY(-3deg);
+           color: white
+        }
+        .destaque01{
+          height: auto !important; 
+          padding: 0 !important;
+        }
+  	    .frase01{
+		  background: url(imagens/frase01_movel.png) no-repeat !important;
+		  background-position-x:center !important; 
+          background-color: #e6e6e6 !important;
+		  height: 450px !important;
+	    }
+        .frase01p01{
+          display: table;
+          position: relative;
+          top: 260px;
+          margin: 0 auto !important;
+        }
+        .frase01p02{
+          display: table;
+          position: relative;
+          top: 280px;
+          margin: 0 auto !important;
+        }
+        .frase01p03{
+          display: table;
+          position: relative;
+          top: 300px;
+          margin: 0 auto !important;
+        }
+        .frase01p04{
+          display: table;
+          position: relative;
+          top: 320px;
+          margin: 0 auto !important;
+        }
+  	    .frase02{
+		  background: url(imagens/frase02_movel.png) no-repeat !important;
+		  background-position-x:center !important; 
+          background-color: #e6e6e6 !important;
+		  height: 450px !important;
+	    }
+        .frase02p01{
+          display: table;
+          position: relative;
+          top: 260px;
+          margin: 0 auto !important;
+        }
+        .frase02p02{
+          display: table;
+          position: relative;
+          top: 280px;
+          margin: 0 auto !important;
+        }
+        .frase02p03{
+          display: table;
+          position: relative;
+          top: 300px;
+          margin: 0 auto !important;
+        }
+	    .produtobg{
+		  height: 240px !important;
+          background-image: none !important;
+	    }
+        .produto01p01{
+          top: 80px !important;
+        }
+        .produto01p02{
+          top: 83px !important;
+        }
+        .produto02p01{
+          top: 140px !important;
+          left: 76px !important;
+          text-align: center !important;
+        }
+        .produto02p02{
+          top: 146px !important;
+          left: 74px !important;
+          text-align: center !important;
+        }
+        .produto03p01{
+          top: 106px !important;
+          left: 81px !important;
+          text-align: center !important;
+        }
+        .produto03p02{
+          top: 110px !important;
+          left: 83px !important;
+          text-align: center !important;
+        }
+        .produto04p01{
+          top: 189px !important;
+          left: -75px !important;
+          text-align: center !important;
+        }
+        .produto04p02{
+          top: 191px !important;
+          left: -75px !important;
+          text-align: center !important;
+        }
+        .destaque02bg{
+          margin-top:50px !important;
+          height: 550px !important;
+        }
+        .destaque02h{
+          height: 620px !important;
+        }
+      .destaque02selo{
+        float: none !important;
+        position: relative !important;
+        margin: 0 auto !important;
+        top: 131px !important;
+      }
+      .destaque02bg p{
+        text-align: center !important;
+      }
+    }
+	  
+	.bgtopo{
+		background: url(imagens/topoBg.jpg) top repeat-x !important;
+	}
+	
+	.bgfooter{
+		background: url(imagens/footer02.jpg) top no-repeat !important;
+	}
+	  
+	.edicaonum{
+		font-family: Oswald, Arial, Helvetica, sans-serif; 
+		font-weight:300; 
+		font-size:20px; 
+		color:#fff;
+		padding-top: 10px;
+		padding-bottom: 0px;
+		margin: 0;
+	}  
+	.edicaomes{
+		font-family: Oswald, Arial, Helvetica, sans-serif; 
+		font-weight:300; 
+		font-size:16px; 
+		color:#fff;
+		padding: 8px 0px 0px 0px;
+		margin: 0;
+	}
+	  
+	.telefone{
+		font-family: Oswald, Arial, Helvetica, sans-serif; 
+		font-size:40px; 
+		font-weight:300; 
+	}
+	  
+	.ddd{
+		font-family: Oswald, Arial, Helvetica, sans-serif; 
+		font-size:16px; 
+		font-weight:300; 
+		text-align:center
+	}
+	  
+	.local{
+		font-family: Oswald, Arial, Helvetica, sans-serif; 
+		font-size:16px; 
+		font-weight:300; 
+	}
+	  
+	.email{
+		font-family: Oswald, Arial, Helvetica, sans-serif; 
+		font-size:16px; 
+		font-weight:300; 
+	}
+	  
+	.siteurl{
+		font-family: Oswald, Arial, Helvetica, sans-serif; 
+		font-size:16px; 
+		font-weight:300; 
+	}
+
+	  .alinhartelefone > tbody{
+		  display: inline-block !important;
+		  padding-bottom: 15px;
+		
+	  }
+	  .skewtextdestaque{
+		 padding-left: 20px;
+		 padding-right: 20px;
+	     font-family: 'Yanone Kaffeesatz', Oswald, Arial, Helvetica, sans-serif;
+		 font-weight: 400;
+		 font-size: 3em;
+		 line-height: 1.4;
+		 -ms-transform: skewY(-3deg); 
+		 -webkit-transform: skewY(-3deg); 
+		 transform: skewY(-3deg);
+		 color: white
+	  }
+	  .skewtextfrase01{
+		 padding-top: 348px;
+		 padding-left: 20px;
+		 padding-right: 20px;
+	     font-family: 'Yanone Kaffeesatz', Oswald, Arial, Helvetica, sans-serif;
+		 font-weight: 400;
+		 font-size: 3em;
+		 line-height: 1.4;
+		 -ms-transform: skewY(-3deg); 
+		 -webkit-transform: skewY(-3deg); 
+		 transform: skewY(-3deg);
+		 color: white
+	  }
+	  .destaque01{
+		  background: #8d6b26; 
+          background: -moz-linear-gradient(top,  #8d6b26 0%, #6a501c 100%); 
+          background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#8d6b26), color-stop(100%,#6a501c)); 
+          background: -webkit-linear-gradient(top,  #8d6b26 0%,#6a501c 100%); 
+          background: -o-linear-gradient(top,  #8d6b26 0%,#6a501c 100%); 
+          background: -ms-linear-gradient(top,  #8d6b26 0%,#6a501c 100%); 
+          background: linear-gradient(to bottom,  #8d6b26 0%,#6a501c 100%); 
+          filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8d6b26', endColorstr='#6a501c',GradientType=0 ); 
+	  }
+	  .frase01{
+		  background: url(imagens/frase01.png) no-repeat;
+		  background-position:center center; 
+		  background-size:cover; 
+		  height: 260px
+	  }
+	  .frase02{
+		  background: url(imagens/frase02.png) no-repeat;
+		  background-position:center center; 
+		  background-size:cover; 
+		  height: 260px
+	  }
+	  .produtobg{
+		  background: url(imagens/produtoBg.png) no-repeat;
+		  background-position:center center; 
+		  height: 210px
+	  }
+	  .destaque02bg{
+		  width: 100%;
+		  height: 300px;
+		  background: #664400; 
+          background: -moz-linear-gradient(top,  #664400 0%, #8d6b26 50%, #665128 100%); 
+          background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#664400), color-stop(50%,#8d6b26), color-stop(100%,#665128)); 
+          background: -webkit-linear-gradient(top,  #664400 0%,#8d6b26 50%,#665128 100%); 
+          background: -o-linear-gradient(top,  #664400 0%,#8d6b26 50%,#665128 100%); 
+          background: -ms-linear-gradient(top,  #664400 0%,#8d6b26 50%,#665128 100%); 
+          background: linear-gradient(to bottom,  #664400 0%,#8d6b26 50%,#665128 100%); 
+          filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#664400', endColorstr='#665128',GradientType=0 ); 
+         -ms-transform: skewY(-3deg); 
+		 -webkit-transform: skewY(-3deg); 
+		 transform: skewY(-3deg);
+	  }
+    .unskew{
+         -ms-transform: skewY(3deg); 
+         -webkit-transform: skewY(3deg); 
+         transform: skewY(3deg);
+    }
+    .destaque02h{
+      height: 330px;
+    }
+    
+    .fabricaPropria{
+      max-width: 250px !important;
+    }
+
+  </style>
+</head>
+<body style="width:100% !important;min-width:100%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;text-align:left;font-size:14px;line-height:19px;" >
+	<table class="body" style="border-spacing:0;border-collapse:collapse;vertical-align:top;height:100%;width:100%;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;text-align:left;font-size:14px;line-height:19px;" >
+		<tr style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;vertical-align:top;text-align:left;" >
+          <td class="center" align="center" valign="top" style="word-break:break-word;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;font-size:14px;line-height:19px;text-align:center;" >
+        <center style="width:100%;min-width:580px;" >
+          <table class="row header bgtopo" style="border-spacing:0;border-collapse:collapse;vertical-align:top;text-align:left;background-color:transparent !important;background-image:url(imagens/topoBg.jpg) !important;background-repeat:repeat-x !important;background-position:top !important;background-attachment:scroll !important;padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;width:100%;position:relative;" >
+            <tr style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;vertical-align:top;text-align:left;" >
+              <td class="center bgtopo" align="center" style="word-break:break-word;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;font-size:14px;line-height:19px;background-color:transparent !important;background-image:url(imagens/topoBg.jpg) !important;background-repeat:repeat-x !important;background-position:top !important;background-attachment:scroll !important;text-align:center;" >
+                <center style="width:100%;min-width:580px;" >
+                  <table class="container" style="border-spacing:0;border-collapse:collapse;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;vertical-align:top;width:580px;margin-top:0;margin-bottom:0;margin-right:auto;margin-left:auto;text-align:inherit;" >
+                    <tr style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;vertical-align:top;text-align:left;" >
+                      <td class="wrappertop last" style="word-break:break-word;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;text-align:left;font-size:14px;line-height:19px;padding-top:0px;padding-bottom:0px;padding-left:0px;position:relative;padding-right:0px;" >
+
+                        <table class="twelve columns" style="border-spacing:0;border-collapse:collapse;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;vertical-align:top;text-align:left;margin-top:0;margin-bottom:0;margin-right:auto;margin-left:auto;width:580px;" >
+                          <tr style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;vertical-align:top;text-align:left;" >
+                            <td class="four sub-columns hide" style="word-break:break-word;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;text-align:left;font-size:14px;line-height:19px;min-width:0px;padding-top:0px;padding-bottom:10px;padding-left:0px;padding-right:10px;width:33.333333%;" >
+                              <p class="edicaonum" style="padding-right:0;padding-left:0;text-align:left;line-height:19px;font-family:Oswald, Arial, Helvetica, sans-serif;font-weight:300;font-size:20px;color:#fff;padding-top:10px;padding-bottom:0px;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;" >Newsletter #01</p>
+                              
+                              <p class="edicaomes" style="text-align:left;line-height:19px;font-family:Oswald, Arial, Helvetica, sans-serif;font-weight:300;font-size:16px;color:#fff;padding-top:8px;padding-bottom:0px;padding-right:0px;padding-left:0px;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;" >Janeiro/2015</p>
+                            </td>
+                            <td class="four sub-columns" style="word-break:break-word;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;text-align:left;font-size:14px;line-height:19px;min-width:0px;padding-top:0px;padding-bottom:10px;padding-left:0px;padding-right:10px;width:33.333333%;" >
+                              <img class="center" src="imagens/logo.jpg" alt="Logomarca Spazio Casa e Jardim" style="min-width:174px;outline-style:none;text-decoration:none;-ms-interpolation-mode:bicubic;width:auto;max-width:100%;clear:both;display:block;margin-top:0;margin-bottom:0;margin-right:auto;margin-left:auto;float:none;" >
+                            </td>
+                            <td class="four sub-columns last hide" valign="top" style="padding-left:20px;word-break:break-word;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;text-align:left;font-size:14px;line-height:19px;min-width:0px;padding-top:0px;padding-bottom:10px;padding-right:0px;width:33.333333%;" >
+                             	<img src="imagens/fabricapropria.png" alt="Fábrica Própria" style="min-width:120px;float:right;outline-style:none;text-decoration:none;-ms-interpolation-mode:bicubic;width:auto;max-width:100%;clear:both;display:block;" >
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </center>
+              </td>
+            </tr>
+          </table>
+
+         <table class="row show" style="display:none;height:65px;border-spacing:0;border-collapse:collapse;vertical-align:top;text-align:left;padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;width:100%;position:relative;" >
+          <tr style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;vertical-align:top;text-align:left;" >
+            <td class="wrapper alinhartelefone" style="word-break:break-word;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;text-align:left;font-size:14px;line-height:19px;padding-top:10px;padding-bottom:0px;padding-right:20px;padding-left:0px;position:relative;" >
+
+              <table class="six columns" style="border-spacing:0;border-collapse:collapse;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;vertical-align:top;text-align:left;margin-top:0;margin-bottom:0;margin-right:auto;margin-left:auto;width:280px;" >
+                <tr style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;vertical-align:top;text-align:left;" >
+                  <td class="center" style="word-break:break-word;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;font-size:14px;line-height:19px;text-align:center;padding-top:0px;padding-bottom:10px;padding-right:0px;padding-left:0px;" >
+                    <center style="width:100%;min-width:280px;" >
+                      <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iQ2FtYWRhXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgMjM4IDYyIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAyMzggNjI7IiB4bWw6c3BhY2U9InByZXNlcnZlIj48cGF0aCBpZD0ic2hhcGUiIHN0eWxlPSJmaWxsOiMzRDNEM0U7IiBkPSJNMjMwLjUsNDcuNGMwLDQuNi0zLjcsOC40LTguMyw4LjVsLTEwMi4zLDIuNUwxNS44LDU1LjljLTQuNi0wLjEtOC4zLTMuOS04LjMtOC41bDUuMy0xNS43TDcuNSwxOS45YzAtNS43LDQuNi0xMC4zLDEwLjMtMTAuM0wxMTkuOSw1bDEwMC4zLDQuN2M1LjcsMCwxMC4zLDQuNiwxMC4zLDEwLjNsLTUuMywxMS43TDIzMC41LDQ3LjR6Ii8+PGcgaWQ9InN0YXJzIj48cG9seWdvbiBpZD0ic3RhcjAzIiBzdHlsZT0iZmlsbDojOEQ2QjI2OyIgcG9pbnRzPSIxMjAuMiw4LjcgMTIyLjQsMTMuMiAxMjcuNCwxMy45IDEyMy44LDE3LjQgMTI0LjYsMjIuNCAxMjAuMiwyMCAxMTUuOCwyMi40IDExNi42LDE3LjQgMTEzLDEzLjkgMTE4LDEzLjIgIi8+PHBvbHlnb24gaWQ9InN0YXIwMiIgc3R5bGU9ImZpbGw6IzhENkIyNjsiIHBvaW50cz0iMTAzLjksMTEuNyAxMDUuNCwxNC42IDEwOC42LDE1LjEgMTA2LjIsMTcuMyAxMDYuOCwyMC41IDEwMy45LDE5IDEwMS4xLDIwLjUgMTAxLjYsMTcuMyA5OS4zLDE1LjEgMTAyLjUsMTQuNiAiLz48cG9seWdvbiBpZD0ic3RhcjAxIiBzdHlsZT0iZmlsbDojOEQ2QjI2OyIgcG9pbnRzPSIxMzUuOSwxMy40IDEzNy4zLDE2LjMgMTQwLjUsMTYuOCAxMzguMiwxOSAxMzguOCwyMi4yIDEzNS45LDIwLjcgMTMzLDIyLjIgMTMzLjYsMTkgMTMxLjMsMTYuOCAxMzQuNSwxNi4zICIvPjwvZz48dGV4dCB0cmFuc2Zvcm09Im1hdHJpeCgxIDAgMCAxIDM0LjU0MyA0OC4zMzcxKSIgc3R5bGU9ImZpbGw6I0Y0QTY0MDsgZm9udC1mYW1pbHk6J09zd2FsZCc7IGZvbnQtc2l6ZToyMy41MTgxOyI+RsOBQlJJQ0EgUFLDk1BSSUE8L3RleHQ+PC9zdmc+" alt="Fábrica Própria" class="fabricaPropria center" style="outline-style:none;text-decoration:none;-ms-interpolation-mode:bicubic;width:auto;clear:both;display:block;max-width:250px !important;margin-top:0;margin-bottom:0;margin-right:auto;margin-left:auto;float:none;" >
+                    </center>
+                  </td>
+                  <td class="expander" style="word-break:break-word;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;text-align:left;font-size:14px;line-height:19px;visibility:hidden;width:0px;padding-top:0 !important;padding-bottom:0 !important;padding-right:0 !important;padding-left:0 !important;" ></td>
+                </tr>
+              </table>
+            </td>
+           </tr>
+          </table>
+
+		   <table class="row show" style="display:none;height:35px;border-spacing:0;border-collapse:collapse;vertical-align:top;text-align:left;padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;width:100%;position:relative;" >
+			<tr style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;vertical-align:top;text-align:left;" >
+			  <td class="wrapper last" style="word-break:break-word;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;text-align:left;font-size:14px;line-height:19px;padding-top:10px;padding-bottom:0px;padding-left:0px;position:relative;padding-right:0px;" >
+
+				<table class="twelve columns" style="border-spacing:0;border-collapse:collapse;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;vertical-align:top;text-align:left;margin-top:0;margin-bottom:0;margin-right:auto;margin-left:auto;width:580px;" >
+				  <tr style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;vertical-align:top;text-align:left;" >
+					<td class="panel" style="border-width:0;word-break:break-word;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;text-align:left;font-size:14px;line-height:19px;padding-top:10px !important;padding-bottom:10px !important;padding-right:10px !important;padding-left:10px !important;" >
+
+					  <p class="ddd" style="color:#222222;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;margin-top:0;margin-right:0;margin-left:0;line-height:19px;margin-bottom:10px;font-family:Oswald, Arial, Helvetica, sans-serif;font-size:16px;font-weight:300;text-align:center;" >Newsletter #01 / Janeiro de 2015</p>
+
+					</td>
+					<td class="expander" style="word-break:break-word;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;text-align:left;font-size:14px;line-height:19px;visibility:hidden;width:0px;padding-top:0 !important;padding-bottom:0 !important;padding-right:0 !important;padding-left:0 !important;" ></td>
+				  </tr>
+				</table>
+			  </td>
+			</tr>
+		  </table>
+         
+          <table class="container" style="border-spacing:0;border-collapse:collapse;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;vertical-align:top;width:580px;margin-top:0;margin-bottom:0;margin-right:auto;margin-left:auto;text-align:inherit;" >
+            <tr style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;vertical-align:top;text-align:left;" >
+              <td style="word-break:break-word;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;text-align:left;font-size:14px;line-height:19px;" >
+
+                <!-- content start -->
+                <table class="row" style="border-spacing:0;border-collapse:collapse;vertical-align:top;text-align:left;padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;width:100%;position:relative;display:block;" >
+                  <tr style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;vertical-align:top;text-align:left;" >
+                    <td class="wrapper last" style="word-break:break-word;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;text-align:left;font-size:14px;line-height:19px;padding-top:10px;padding-bottom:0px;padding-left:0px;position:relative;padding-right:0px;" >
+
+                      <table class="twelve columns" style="border-spacing:0;border-collapse:collapse;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;vertical-align:top;text-align:left;margin-top:0;margin-bottom:0;margin-right:auto;margin-left:auto;width:580px;" >
+                        <tr style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;vertical-align:top;text-align:left;" >
+                          <td style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;word-break:break-word;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;text-align:left;font-size:14px;line-height:19px;" >
+                            <img src="imagens/destaque01_topo.png" alt="Mesa Butzke - A arte e o charme que duram" style="outline-style:none;text-decoration:none;-ms-interpolation-mode:bicubic;width:auto;max-width:100%;float:left;clear:both;display:block;" >
+                          </td>
+                          <td class="expander" style="word-break:break-word;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;text-align:left;font-size:14px;line-height:19px;visibility:hidden;width:0px;padding-top:0 !important;padding-bottom:0 !important;padding-right:0 !important;padding-left:0 !important;" ></td>
+                        </tr>
+                        
+                        <tr style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;vertical-align:top;text-align:left;" >
+                          <td class="destaque01" style="word-break:break-word;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;text-align:left;font-size:14px;line-height:19px;background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#664400), color-stop(50%,#8d6b26), color-stop(100%,#665128)); background-image:none;background-repeat:repeat;background-position:bottom;background-attachment:scroll;filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#8d6b26', endColorstr='#6a501c',GradientType=0 );padding-top:0px;padding-bottom:10px;padding-right:0px;padding-left:0px;" >
+							<p class="skewtextdestaque" style="text-align:center;padding-top:0;padding-bottom:0;margin-top:0;margin-right:0;margin-left:0;margin-bottom:10px;padding-left:20px;padding-right:20px;font-family:'Yanone Kaffeesatz', Oswald, Arial, Helvetica, sans-serif;font-weight:400;font-size:3em;line-height:1.4;-ms-transform:skewY(-3deg);-webkit-transform:skewY(-3deg);transform:skewY(-3deg);color:white;" >ELEGÂNCIA E HARMONIA NA SUA CASA COM O REQUINTE DOS MÓVEIS DE <span style="color:#f4a640;" >FIBRA DE ALTA RESISTÊNCIA</span> E DURABILIDADE E A GARANTIA DE MATÉRIA PRIMA <span style="color:#f4a640;" >100% NACIONAL</span>.</p>
+                          </td>
+                          <td class="expander" style="word-break:break-word;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;text-align:left;font-size:14px;line-height:19px;visibility:hidden;width:0px;padding-top:0 !important;padding-bottom:0 !important;padding-right:0 !important;padding-left:0 !important;" ></td>
+                        </tr>
+                        
+                        <tr style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;vertical-align:top;text-align:left;" >
+                          <td style="word-break:break-word;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;text-align:left;font-size:14px;line-height:19px;padding-top:0px;padding-bottom:10px;padding-right:0px;padding-left:0px;" >
+                           <img src="imagens/destaque01_rodape.png" alt="Elegância e harmonia na sua casa com o requinte dos móveis de fibra de alta resistência e durabilidade e a garantia de matéria prima 100% nacional." style="outline-style:none;text-decoration:none;-ms-interpolation-mode:bicubic;width:auto;max-width:100%;float:left;clear:both;display:block;" >
+                          </td>
+                        </tr>
+                      </table>
+
+                    </td>
+                  </tr>
+                </table>
+
+                <table class="row callout" style="border-spacing:0;border-collapse:collapse;vertical-align:top;text-align:left;padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;width:100%;position:relative;display:block;" >
+                  <tr style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;vertical-align:top;text-align:left;" >
+                    <td class="wrapper last" style="word-break:break-word;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;text-align:left;font-size:14px;line-height:19px;padding-top:10px;padding-bottom:0px;padding-left:0px;position:relative;padding-right:0px;" >
+
+                      <table class="twelve columns frase01" style="border-spacing:0;border-collapse:collapse;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;vertical-align:top;text-align:left;background-color:transparent;background-image:url(imagens/frase01.png);background-repeat:no-repeat;background-position:center center;background-attachment:scroll;background-size:cover;height:260px;margin-top:0;margin-bottom:0;margin-right:auto;margin-left:auto;width:580px;" >
+                        <tr style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;vertical-align:top;text-align:left;" >
+                          <td class="panel" style="word-break:break-word;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;text-align:left;font-size:14px;line-height:19px;padding-top:10px !important;padding-bottom:10px !important;padding-right:10px !important;padding-left:10px !important;border-color:#fff;" >
+                            <p  class="frase01p01" style="font-size:1.2em;font-family:Oswald, Arial, Helvetica, sans-serif;transform:skewY(-4deg);padding-left:350px;padding-top:50px;color:#222222;font-weight:normal;padding-bottom:0;padding-right:0;margin-top:0;margin-right:0;margin-left:0;text-align:left;line-height:19px;margin-bottom:10px;" >Mais do que estilo</p>
+                            <p  class="frase01p02" style="font-size:2.5em;font-family:Oswald, Arial, Helvetica, sans-serif;transform:skewY(-4deg);padding-left:370px;padding-top:8px;text-transform:uppercase;color:#8d6b26;font-weight:600;padding-bottom:0;padding-right:0;margin-top:0;margin-right:0;margin-left:0;text-align:left;line-height:19px;margin-bottom:10px;" >Resistência,</p>
+                            <p  class="frase01p03" style="font-size:2.5em;font-family:Oswald, Arial, Helvetica, sans-serif;transform:skewY(-4deg);padding-left:340px;padding-top:20px;text-transform:uppercase;color:#484848;font-weight:600;padding-bottom:0;padding-right:0;margin-top:0;margin-right:0;margin-left:0;text-align:left;line-height:19px;margin-bottom:10px;" >Durabilidade</p>
+                            <p  class="frase01p04" style="font-size:2.5em;font-family:Oswald, Arial, Helvetica, sans-serif;transform:skewY(-4deg);padding-left:370px;padding-top:20px;text-transform:uppercase;color:#8d6b26;font-weight:600;padding-bottom:0;padding-right:0;margin-top:0;margin-right:0;margin-left:0;text-align:left;line-height:19px;margin-bottom:10px;" ><span style="font-size:.5em;" >e</span> Elegância.</p>
+                            <p  class="hide-for-small" style="position:relative;font-size:1.3em;font-family:Oswald, Arial, Helvetica, sans-serif;padding-left:203px;color:black;font-weight:400;top:-35px;padding-top:0;padding-bottom:0;padding-right:0;margin-top:0;margin-right:0;margin-left:0;text-align:left;line-height:19px;margin-bottom:10px;" >Astoria II</p>
+                            <p  class="hide-for-small" style="position:relative;font-size:.9em;font-family:O Arial, Helvetica, sans-serif;padding-left:210px;color:black;font-weight:400;top:-32px;padding-top:0;padding-bottom:0;padding-right:0;margin-top:0;margin-right:0;margin-left:0;text-align:left;line-height:19px;margin-bottom:10px;" >CÓD.388</p>
+                          </td>
+                          <td class="expander" style="word-break:break-word;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;text-align:left;font-size:14px;line-height:19px;visibility:hidden;width:0px;padding-top:0 !important;padding-bottom:0 !important;padding-right:0 !important;padding-left:0 !important;" ></td>
+                        </tr>
+                      </table>
+
+                    </td>
+                  </tr>
+                </table>
+
+                <table class="row callout" style="border-spacing:0;border-collapse:collapse;vertical-align:top;text-align:left;padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;width:100%;position:relative;display:block;" >
+                  <tr style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;vertical-align:top;text-align:left;" >
+                    <td class="wrapper last" style="word-break:break-word;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;text-align:left;font-size:14px;line-height:19px;padding-top:10px;padding-bottom:0px;padding-left:0px;position:relative;padding-right:0px;" >
+
+                      <table class="twelve columns frase02" style="border-spacing:0;border-collapse:collapse;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;vertical-align:top;text-align:left;background-color:transparent;background-image:url(imagens/frase02.png);background-repeat:no-repeat;background-position:center center;background-attachment:scroll;background-size:cover;height:260px;margin-top:0;margin-bottom:0;margin-right:auto;margin-left:auto;width:580px;" >
+                        <tr style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;vertical-align:top;text-align:left;" >
+                          <td class="panel" style="word-break:break-word;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;text-align:left;font-size:14px;line-height:19px;padding-top:10px !important;padding-bottom:10px !important;padding-right:10px !important;padding-left:10px !important;border-color:#fff;" >
+                          	<p  class="frase02p01" style="font-size:2.5em;font-family:Oswald, Arial, Helvetica, sans-serif;transform:skewY(-4deg);padding-left:30px;padding-top:48px;text-transform:uppercase;color:#8d6b26;font-weight:600;padding-bottom:0;padding-right:0;margin-top:0;margin-right:0;margin-left:0;text-align:left;line-height:19px;margin-bottom:10px;" >Móveis Feitos</p>
+                          	<p  class="frase02p02" style="font-size:2.5em;font-family:Oswald, Arial, Helvetica, sans-serif;transform:skewY(-4deg);padding-top:20px;text-transform:uppercase;color:#484848;font-weight:600;padding-bottom:0;padding-right:0;padding-left:0;margin-top:0;margin-right:0;margin-left:0;text-align:left;line-height:19px;margin-bottom:10px;" >para durar</p>
+                          	<p  class="frase02p03" style="font-size:2.5em;font-family:Oswald, Arial, Helvetica, sans-serif;transform:skewY(-4deg);padding-top:20px;padding-left:70px;text-transform:uppercase;color:#8d6b26;font-weight:600;padding-bottom:0;padding-right:0;margin-top:0;margin-right:0;margin-left:0;text-align:left;line-height:19px;margin-bottom:10px;" ><span style="font-size:.5em;" >e</span> brilhar</p>
+                          	<p  class="hide-for-small" style="position:relative;font-size:1.3em;font-family:Oswald, Arial, Helvetica, sans-serif;padding-left:283px;color:black;font-weight:400;top:-125px;padding-top:0;padding-bottom:0;padding-right:0;margin-top:0;margin-right:0;margin-left:0;text-align:left;line-height:19px;margin-bottom:10px;" >Chaise Diva</p>
+                          	<p  class="hide-for-small" style="position:relative;font-size:.9em;font-family:Arial, Helvetica, sans-serif;padding-left:298px;color:black;font-weight:400;top:-126px;padding-top:0;padding-bottom:0;padding-right:0;margin-top:0;margin-right:0;margin-left:0;text-align:left;line-height:19px;margin-bottom:10px;" >CÓD. 219</p>
+                          </td>
+                          <td class="expander" style="word-break:break-word;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;text-align:left;font-size:14px;line-height:19px;visibility:hidden;width:0px;padding-top:0 !important;padding-bottom:0 !important;padding-right:0 !important;padding-left:0 !important;" ></td>
+                        </tr>
+                      </table>
+
+                    </td>
+                  </tr>
+                </table>
+
+                <table class="row" style="border-spacing:0;border-collapse:collapse;vertical-align:top;text-align:left;padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;width:100%;position:relative;display:block;" >
+                  <tr style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;vertical-align:top;text-align:left;" >
+                    <td class="wrapper" style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;word-break:break-word;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;text-align:left;font-size:14px;line-height:19px;position:relative;" >
+
+                      <table class="six columns produtobg" style="border-spacing:0;border-collapse:collapse;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;vertical-align:top;text-align:left;background-color:transparent;background-image:url(imagens/produtoBg.png);background-repeat:no-repeat;background-position:center center;background-attachment:scroll;height:210px;margin-top:0;margin-bottom:0;margin-right:auto;margin-left:auto;width:280px;" >
+                        <tr style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;vertical-align:top;text-align:left;" >
+                          <td class="panel" style="padding-top:10px !important;padding-bottom:10px !important;padding-right:10px !important;padding-left:10px !important;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;border-width:0;word-break:break-word;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;text-align:left;font-size:14px;line-height:19px;" >
+                          	<p  class="produto01p01" style="font-family:Oswald, Arial, Helvetica, sans-serif;position:relative;top:30px;text-align:center;font-size:1.3em;z-index:2;color:#222222;font-weight:normal;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;margin-top:0;margin-right:0;margin-left:0;line-height:19px;margin-bottom:10px;" >Interlocking</p>
+                          	<p  class="produto01p02" style="position:relative;font-size:.9em;font-family:Arial, Helvetica, sans-serif;color:black;font-weight:400;top:35px;text-align:center;z-index:2;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;margin-top:0;margin-right:0;margin-left:0;line-height:19px;margin-bottom:10px;" >CÓD. 378</p>
+                          	<img src="imagens/produtoDiv.png" alt=""  class="center hide-for-small" style="position:relative;top:-13px;outline-style:none;text-decoration:none;-ms-interpolation-mode:bicubic;width:auto;max-width:100%;clear:both;display:block;margin-top:0;margin-bottom:0;margin-right:auto;margin-left:auto;float:none;" >
+                          	<img src="imagens/produto01.png" alt="Interlocking - Cód.378"  class="center hide-for-small" style="position:relative;outline-style:none;text-decoration:none;-ms-interpolation-mode:bicubic;width:auto;max-width:100%;clear:both;display:block;margin-top:0;margin-bottom:0;margin-right:auto;margin-left:auto;float:none;" >
+                          	<img src="imagens/produto01_img.png" alt=""  class="center show-for-small" style="position:relative;z-index:1;outline-style:none;text-decoration:none;-ms-interpolation-mode:bicubic;width:auto;max-width:100%;clear:both;display:none;margin-top:0;margin-bottom:0;margin-right:auto;margin-left:auto;float:none;" >
+                          	
+                         
+                          </td>
+                          <td class="expander" style="word-break:break-word;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;text-align:left;font-size:14px;line-height:19px;visibility:hidden;width:0px;padding-top:0 !important;padding-bottom:0 !important;padding-right:0 !important;padding-left:0 !important;" ></td>
+                        </tr>
+                      </table>
+
+                    </td>
+                    <td class="wrapper last" style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;word-break:break-word;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;text-align:left;font-size:14px;line-height:19px;position:relative;" >
+
+                      <table class="six columns produtobg" style="border-spacing:0;border-collapse:collapse;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;vertical-align:top;text-align:left;background-color:transparent;background-image:url(imagens/produtoBg.png);background-repeat:no-repeat;background-position:center center;background-attachment:scroll;height:210px;margin-top:0;margin-bottom:0;margin-right:auto;margin-left:auto;width:280px;" >
+                        <tr style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;vertical-align:top;text-align:left;" >
+                          <td class="panel" style="padding-top:10px !important;padding-bottom:10px !important;padding-right:10px !important;padding-left:10px !important;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;border-width:0;word-break:break-word;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;text-align:left;font-size:14px;line-height:19px;" >
+                          	<p  class="produto02p01" style="font-family:Oswald, Arial, Helvetica, sans-serif;position:relative;top:70px;text-align:right;right:15px;font-size:1.3em;color:#222222;font-weight:normal;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;margin-top:0;margin-right:0;margin-left:0;line-height:19px;margin-bottom:10px;" >Chaise Harvey</p>
+                          	<p  class="produto02p02" style="position:relative;font-size:.9em;font-family:Arial, Helvetica, sans-serif;color:black;font-weight:400;top:79px;text-align:right;right:36px;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;margin-top:0;margin-right:0;margin-left:0;line-height:19px;margin-bottom:10px;" >CÓD. 134</p>
+                          	<img src="imagens/produtoDiv.png" alt=""  class="hide-for-small" style="position:relative;top:30px;left:150px;outline-style:none;text-decoration:none;-ms-interpolation-mode:bicubic;width:auto;max-width:100%;float:left;clear:both;display:block;" >
+                          	<img src="imagens/produto02.png" alt="Chaise Harvey - Cód. 134"  class="hide-for-small" style="position:absolute;left:-20px;top:0px;outline-style:none;text-decoration:none;-ms-interpolation-mode:bicubic;width:auto;max-width:100%;float:left;clear:both;display:block;" >
+                          	<img src="imagens/produto02_img.png" class="center show-for-small" style="outline-style:none;text-decoration:none;-ms-interpolation-mode:bicubic;width:auto;max-width:100%;clear:both;display:none;margin-top:0;margin-bottom:0;margin-right:auto;margin-left:auto;float:none;" >
+                          </td>
+                          <td class="expander" style="word-break:break-word;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;text-align:left;font-size:14px;line-height:19px;visibility:hidden;width:0px;padding-top:0 !important;padding-bottom:0 !important;padding-right:0 !important;padding-left:0 !important;" ></td>
+                        </tr>
+                      </table>
+
+                    </td>
+                  </tr>
+                </table>
+
+                <table class="row" style="border-spacing:0;border-collapse:collapse;vertical-align:top;text-align:left;padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;width:100%;position:relative;display:block;" >
+                  <tr style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;vertical-align:top;text-align:left;" >
+                    <td class="wrapper" style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;word-break:break-word;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;text-align:left;font-size:14px;line-height:19px;position:relative;" >
+
+                      <table class="six columns produtobg" style="border-spacing:0;border-collapse:collapse;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;vertical-align:top;text-align:left;background-color:transparent;background-image:url(imagens/produtoBg.png);background-repeat:no-repeat;background-position:center center;background-attachment:scroll;height:210px;margin-top:0;margin-bottom:0;margin-right:auto;margin-left:auto;width:280px;" >
+                        <tr style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;vertical-align:top;text-align:left;" >
+                          <td class="panel" style="padding-top:10px !important;padding-bottom:10px !important;padding-right:10px !important;padding-left:10px !important;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;border-width:0;word-break:break-word;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;text-align:left;font-size:14px;line-height:19px;" >
+                           <p  class="produto03p01" style="font-family:Oswald, Arial, Helvetica, sans-serif;position:relative;top:71px;text-align:right;font-size:1.3em;color:#222222;font-weight:normal;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;margin-top:0;margin-right:0;margin-left:0;line-height:19px;margin-bottom:10px;" >Chaise Nicoly</p>
+                           <p  class="produto03p02" style="position:relative;font-size:.9em;font-family:Arial, Helvetica, sans-serif;color:black;font-weight:400;top:77px;text-align:right;right:19px;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;margin-top:0;margin-right:0;margin-left:0;line-height:19px;margin-bottom:10px;" >CÓD. 143</p>
+                           <img src="imagens/produtoDiv.png" alt=""  class="hide-for-small" style="position:relative;top:29px;left:164px;outline-style:none;text-decoration:none;-ms-interpolation-mode:bicubic;width:auto;max-width:100%;float:left;clear:both;display:block;" >
+                          	<img src="imagens/produto03.png" alt="Chaise Nicoly - Cód. 143"  class="hide-for-small" style="position:relative;left:-25px;outline-style:none;text-decoration:none;-ms-interpolation-mode:bicubic;width:auto;max-width:100%;float:left;clear:both;display:block;" >
+                          	<img src="imagens/produto03_img.png" alt="" class="center show-for-small" style="outline-style:none;text-decoration:none;-ms-interpolation-mode:bicubic;width:auto;max-width:100%;clear:both;display:none;margin-top:0;margin-bottom:0;margin-right:auto;margin-left:auto;float:none;" >
+                          </td>
+                          <td class="expander" style="word-break:break-word;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;text-align:left;font-size:14px;line-height:19px;visibility:hidden;width:0px;padding-top:0 !important;padding-bottom:0 !important;padding-right:0 !important;padding-left:0 !important;" ></td>
+                        </tr>
+                      </table>
+
+                    </td>
+                    <td class="wrapper last" style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;word-break:break-word;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;text-align:left;font-size:14px;line-height:19px;position:relative;" >
+
+                      <table class="six columns produtobg" style="border-spacing:0;border-collapse:collapse;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;vertical-align:top;text-align:left;background-color:transparent;background-image:url(imagens/produtoBg.png);background-repeat:no-repeat;background-position:center center;background-attachment:scroll;height:210px;margin-top:0;margin-bottom:0;margin-right:auto;margin-left:auto;width:280px;" >
+                        <tr style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;vertical-align:top;text-align:left;" >
+                          <td class="panel" style="padding-top:10px !important;padding-bottom:10px !important;padding-right:10px !important;padding-left:10px !important;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;border-width:0;word-break:break-word;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;text-align:left;font-size:14px;line-height:19px;" >
+                         	<p  class="produto04p01" style="font-family:Oswald, Arial, Helvetica, sans-serif;position:relative;top:147px;text-align:left;left:20px;font-size:1.3em;color:#222222;font-weight:normal;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;margin-top:0;margin-right:0;margin-left:0;line-height:19px;margin-bottom:10px;" >Conj. Granada</p>
+                           <p  class="produto04p02" style="position:relative;font-size:.9em;font-family:Arial, Helvetica, sans-serif;color:black;font-weight:400;top:154px;text-align:left;left:38px;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;margin-top:0;margin-right:0;margin-left:0;line-height:19px;margin-bottom:10px;" >CÓD. 145</p>
+                           <img src="imagens/produtoDiv.png" alt=""  class="hide-for-small" style="position:relative;top:107px;right:-23px;outline-style:none;text-decoration:none;-ms-interpolation-mode:bicubic;width:auto;max-width:100%;float:left;clear:both;display:block;" >
+                          	<img src="imagens/produto04.png" alt="Chaise Nicoly - Cód. 143"  class="hide-for-small" style="position:relative;top:-80px;left:50px;outline-style:none;text-decoration:none;-ms-interpolation-mode:bicubic;width:auto;max-width:100%;float:left;clear:both;display:block;" >
+                          	<img src="imagens/produto04_img.png" alt="" class="center show-for-small" style="outline-style:none;text-decoration:none;-ms-interpolation-mode:bicubic;width:auto;max-width:100%;clear:both;display:none;margin-top:0;margin-bottom:0;margin-right:auto;margin-left:auto;float:none;" >
+                         
+                          </td>
+                          <td class="expander" style="word-break:break-word;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;text-align:left;font-size:14px;line-height:19px;visibility:hidden;width:0px;padding-top:0 !important;padding-bottom:0 !important;padding-right:0 !important;padding-left:0 !important;" ></td>
+                        </tr>
+                      </table>
+
+                    </td>
+                  </tr>
+                </table>
+
+                <table class="row callout destaque02h" style="border-spacing:0;border-collapse:collapse;vertical-align:top;text-align:left;height:330px;padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;width:100%;position:relative;display:block;" >
+                  <tr style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;vertical-align:top;text-align:left;" >
+                    <td class="wrapper last" style="word-break:break-word;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;text-align:left;font-size:14px;line-height:19px;padding-top:10px;padding-bottom:0px;padding-left:0px;position:relative;padding-right:0px;" >
+
+                      <table class="twelve columns destaque02bg" style="border-spacing:0;border-collapse:collapse;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;vertical-align:top;text-align:left;height:300px;background-color:#664400;background-image:none;background-repeat:repeat;background-position:bottom;background-attachment:scroll;filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#664400', endColorstr='#665128',GradientType=0 );-ms-transform:skewY(-3deg);-webkit-transform:skewY(-3deg);transform:skewY(-3deg);margin-top:0;margin-bottom:0;margin-right:auto;margin-left:auto;width:580px;" >
+                        <tr style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;vertical-align:top;text-align:left;" >
+                          <td class="panel" style="word-break:break-word;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;text-align:left;font-size:14px;line-height:19px;padding-top:10px !important;padding-bottom:10px !important;padding-right:10px !important;padding-left:10px !important;border-color:#fff;" >
+                            <p  class="destaque01p01" style="font-family:Oswald, Arial, Helvetica, sans-serif;position:relative;top:27px;text-align:left;left:10px;font-size:3em;text-transform:uppercase;color:#f4a640;font-weight:normal;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;margin-top:0;margin-right:0;margin-left:0;line-height:19px;margin-bottom:10px;" >Projete <span style="font-size:.7em;color:white;" >seus</span></p>
+                            <p  class="destaque01p02" style="font-family:Oswald, Arial, Helvetica, sans-serif;position:relative;top:50px;text-align:left;left:10px;font-size:3.4em;text-transform:uppercase;color:#f4a640;font-weight:normal;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;margin-top:0;margin-right:0;margin-left:0;line-height:19px;margin-bottom:10px;" >ambientes</p>
+                            <p  class="destaque01p03" style="font-family:Oswald, Arial, Helvetica, sans-serif;position:relative;top:70px;text-align:left;left:10px;font-size:2.4em;text-transform:uppercase;color:white;font-weight:normal;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;margin-top:0;margin-right:0;margin-left:0;line-height:19px;margin-bottom:10px;" ><span style="font-size:.6em;" >e</span> venha</p>
+                            <p  class="destaque01p04" style="font-family:Oswald, Arial, Helvetica, sans-serif;position:relative;top:82px;text-align:left;left:10px;font-size:3.2em;text-transform:uppercase;color:#f4a640;font-weight:normal;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;margin-top:0;margin-right:0;margin-left:0;line-height:19px;margin-bottom:10px;" >conversar</p>
+                            <p  class="destaque01p05" style="font-family:Oswald, Arial, Helvetica, sans-serif;position:relative;top:107px;text-align:left;left:10px;font-size:4em;text-transform:uppercase;color:#f4a640;font-weight:normal;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;margin-top:0;margin-right:0;margin-left:0;line-height:19px;margin-bottom:10px;" >conosco</p>
+                            <img src="imagens/selo2anos.png" alt="Até 2 anos de garantia!" class="unskew destaque02selo" style="position:absolute;float:right;right:10px;top:24px;width:45%;outline-style:none;text-decoration:none;-ms-interpolation-mode:bicubic;max-width:100%;clear:both;display:block;-ms-transform:skewY(3deg);-webkit-transform:skewY(3deg);transform:skewY(3deg);" >
+                          </td>
+                          <td class="expander" style="word-break:break-word;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;text-align:left;font-size:14px;line-height:19px;visibility:hidden;width:0px;padding-top:0 !important;padding-bottom:0 !important;padding-right:0 !important;padding-left:0 !important;" ></td>
+                        </tr>
+                      </table>
+
+                    </td>
+                  </tr>
+                </table>
+                
+                
+                <table class="row footer" style="border-spacing:0;border-collapse:collapse;vertical-align:top;text-align:left;padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;width:100%;position:relative;display:block;" >
+                  <tr style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;vertical-align:top;text-align:left;" >
+                    <td class="wrapper last" style="background-color:#fff;background-image:none;background-repeat:repeat;background-position:top left;background-attachment:scroll;word-break:break-word;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;text-align:left;font-size:14px;line-height:19px;padding-top:10px;padding-bottom:0px;padding-left:0px;position:relative;padding-right:0px;" >
+                      <table class="twelve columns" style="border-spacing:0;border-collapse:collapse;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;vertical-align:top;text-align:left;margin-top:0;margin-bottom:0;margin-right:auto;margin-left:auto;width:580px;" >
+                        <tr style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;vertical-align:top;text-align:left;" >
+                          <td class="panelfooter" style="word-break:break-word;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;text-align:left;font-size:14px;line-height:19px;padding-top:0 !important;padding-bottom:0 !important;padding-right:0 !important;padding-left:0 !important;" >
+
+                            <img width="580" src="imagens/footer01.jpg" alt="Spazio Casa e Jardim" style="outline-style:none;text-decoration:none;-ms-interpolation-mode:bicubic;width:auto;max-width:100%;float:left;clear:both;display:block;" >
+
+                          </td>
+                          <td class="expander" style="word-break:break-word;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;text-align:left;font-size:14px;line-height:19px;visibility:hidden;width:0px;padding-top:0 !important;padding-bottom:0 !important;padding-right:0 !important;padding-left:0 !important;" ></td>
+                        </tr>
+                      </table>
+                      
+                    </td>
+                  </tr>
+                </table>
+                <table class="row bgfooter" style="border-spacing:0;border-collapse:collapse;vertical-align:top;text-align:left;background-color:transparent !important;background-image:url(imagens/footer02.jpg) !important;background-repeat:no-repeat !important;background-position:top !important;background-attachment:scroll !important;padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;width:100%;position:relative;display:block;" >
+                	<tr style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;vertical-align:top;text-align:left;" >
+                		<td class="wrapper last" style="padding-top:25px;padding-bottom:25px;word-break:break-word;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;text-align:left;font-size:14px;line-height:19px;padding-left:0px;position:relative;padding-right:0px;" >
+							
+						  <table class="row alinhartelefone" style="text-align:center;border-spacing:0;border-collapse:collapse;vertical-align:top;padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;width:100%;position:relative;display:block;" >
+							  <tr style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;vertical-align:top;text-align:left;" >
+								<td class="wrapper" style="word-break:break-word;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;text-align:left;font-size:14px;line-height:19px;padding-top:10px;padding-bottom:0px;padding-right:20px;padding-left:0px;position:relative;" >
+
+								  <table class="six columns" style="border-spacing:0;border-collapse:collapse;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;vertical-align:top;text-align:left;margin-top:0;margin-bottom:0;margin-right:auto;margin-left:auto;width:280px;" >
+									<tr style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;vertical-align:top;text-align:left;" >
+									  <td class="center panelfooter" style="word-break:break-word;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;font-size:14px;line-height:19px;text-align:center;padding-top:0 !important;padding-bottom:0 !important;padding-right:0 !important;padding-left:0 !important;" >
+										<center style="width:100%;min-width:280px;" >
+										  <img src="imagens/telefone.png" alt="Telefone" class="imgtelefone" style="position:relative;left:26px;outline-style:none;text-decoration:none;-ms-interpolation-mode:bicubic;width:auto;max-width:100%;float:left;clear:both;display:block;" >
+										  <span class="telefone" style="font-family:Oswald, Arial, Helvetica, sans-serif;font-size:40px;font-weight:300;" ><span class="ddd" style="font-family:Oswald, Arial, Helvetica, sans-serif;font-size:16px;font-weight:300;text-align:center;" >(63)</span> 3215-5066</span> 
+										</center>
+									  </td>
+
+									</tr>
+								  </table>
+
+								</td>
+							  </tr>
+							</table>
+						    <table class="row alinharlocal" style="border-spacing:0;border-collapse:collapse;vertical-align:top;text-align:left;padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;width:100%;position:relative;display:block;" >
+								<tr style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;vertical-align:top;text-align:left;" >
+								  <td class="wrapper last" style="padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;word-break:break-word;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;text-align:left;font-size:14px;line-height:19px;position:relative;" >
+
+									<table class="twelve columns" style="border-spacing:0;border-collapse:collapse;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;vertical-align:top;text-align:left;margin-top:0;margin-bottom:0;margin-right:auto;margin-left:auto;width:580px;" >
+									  <tr style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;vertical-align:top;text-align:left;" >
+										<td class="panelfooter alinharlocal" style="word-break:break-word;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;text-align:left;font-size:14px;line-height:19px;padding-top:0 !important;padding-bottom:0 !important;padding-right:0 !important;padding-left:0 !important;" >
+
+											<img src="imagens/local.png" alt="Endereço" style="padding-right:10px;padding-left:15px;outline-style:none;text-decoration:none;-ms-interpolation-mode:bicubic;width:auto;max-width:100%;float:left;clear:both;display:block;" >
+											<p class="local" style="color:#222222;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;margin-top:0;margin-right:0;margin-left:0;text-align:left;line-height:19px;margin-bottom:10px;font-family:Oswald, Arial, Helvetica, sans-serif;font-size:16px;font-weight:300;" >Av. JK, Quadra 103 Sul – Saída para Paraíso</p>
+
+										</td>
+										<td class="expander" style="word-break:break-word;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;text-align:left;font-size:14px;line-height:19px;visibility:hidden;width:0px;padding-top:0 !important;padding-bottom:0 !important;padding-right:0 !important;padding-left:0 !important;" ></td>
+									  </tr>
+									</table>
+
+								  </td>
+								</tr>
+							</table>
+				   <table class="row" style="padding-top:7px;border-spacing:0;border-collapse:collapse;vertical-align:top;text-align:left;padding-bottom:0px;padding-right:0px;padding-left:0px;width:100%;position:relative;display:block;" >
+					<tr style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;vertical-align:top;text-align:left;" >
+					  <td class="wrapper last" style="padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;word-break:break-word;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;text-align:left;font-size:14px;line-height:19px;position:relative;" >
+
+						<table class="seven columns alinharemail" style="border-spacing:0;border-collapse:collapse;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;vertical-align:top;text-align:left;margin-top:0;margin-bottom:0;margin-right:auto;margin-left:auto;width:330px;" >
+						  <tr style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;vertical-align:top;text-align:left;" >
+							<td class="alinharemail" style="padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;word-break:break-word;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;text-align:left;font-size:14px;line-height:19px;" >
+
+							  <img src="imagens/email.png" alt="E-mail" style="padding-left:15px;padding-right:10px;outline-style:none;text-decoration:none;-ms-interpolation-mode:bicubic;width:auto;max-width:100%;float:left;clear:both;display:block;" >                 
+							  <a href="mailto:spazio@spaziocasaejardim.com.br" style="color:#2ba6cb;text-decoration:none;" ><p class="email" style="text-align:left;padding-right:8px;color:#222222;padding-top:0;padding-bottom:0;padding-left:0;margin-top:0;margin-right:0;margin-left:0;line-height:19px;margin-bottom:10px;font-family:Oswald, Arial, Helvetica, sans-serif;font-size:16px;font-weight:300;" >spazio@spaziocasaejardim.com.br</p></a>
+							</td>
+							<td class="expander" style="word-break:break-word;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;text-align:left;font-size:14px;line-height:19px;visibility:hidden;width:0px;padding-top:0 !important;padding-bottom:0 !important;padding-right:0 !important;padding-left:0 !important;" ></td>
+						  </tr>
+						</table>
+					  </td>        
+					  <td class="wrapper last" style="padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;word-break:break-word;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;text-align:left;font-size:14px;line-height:19px;position:relative;" >
+
+						<table class="five columns last siteurl" style="border-spacing:0;border-collapse:collapse;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;vertical-align:top;text-align:left;font-family:Oswald, Arial, Helvetica, sans-serif;font-size:16px;font-weight:300;margin-top:0;margin-bottom:0;margin-right:auto;margin-left:auto;width:230px;" >
+						  <tr style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;vertical-align:top;text-align:left;" >
+							<td style="word-break:break-word;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;text-align:left;font-size:14px;line-height:19px;padding-top:0px;padding-bottom:10px;padding-right:0px;padding-left:0px;" >
+
+							  <a href="http://www.spaziocasaejardim.com.br" style="color:#2ba6cb;text-decoration:none;" ><p class="siteurl" style="text-align:right;color:#222222;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;margin-top:0;margin-right:0;margin-left:0;line-height:19px;margin-bottom:10px;font-family:Oswald, Arial, Helvetica, sans-serif;font-size:16px;font-weight:300;" >www.<span style="font-weight:500;color:#8d6b26;" >spazio</span>casaejardim.com.br</p></a>
+
+							</td>
+							<td class="expander" style="word-break:break-word;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;text-align:left;font-size:14px;line-height:19px;visibility:hidden;width:0px;padding-top:0 !important;padding-bottom:0 !important;padding-right:0 !important;padding-left:0 !important;" ></td>
+						  </tr>
+						</table>
+
+					  </td>
+					</tr>
+				  </table>
+                		</td>
+                	</tr>
+                </table>
+
+
+                <!-- container end below -->
+              </td>
+            </tr>
+          </table>
+
+       
+       
+        </center>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>
